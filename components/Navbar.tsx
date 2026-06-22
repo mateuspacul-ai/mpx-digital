@@ -29,10 +29,10 @@ export default function Navbar() {
           <Image
             src={marca.logo}
             alt={marca.nome}
-            width={132}
-            height={34}
+            width={180}
+            height={46}
             priority
-            className="h-7 w-auto"
+            className="h-9 w-auto md:h-11"
           />
         </a>
 

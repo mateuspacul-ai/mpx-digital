@@ -12,9 +12,9 @@ export default function Footer() {
             <Image
               src={marca.logo}
               alt={marca.nome}
-              width={140}
-              height={36}
-              className="h-7 w-auto"
+              width={170}
+              height={44}
+              className="h-9 w-auto"
             />
             <p className="mt-5 max-w-xs text-sm leading-relaxed">
               Agência de marketing e casa de tecnologia. {contato.cidade}.
