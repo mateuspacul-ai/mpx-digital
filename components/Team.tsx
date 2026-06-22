@@ -18,11 +18,11 @@ export default function Team() {
         </Reveal>
       </div>
 
-      <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-white/10 sm:grid-cols-3 lg:grid-cols-5">
+      <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-2xl bg-white/10 sm:grid-cols-3 lg:grid-cols-6">
         {equipe.membros.map((membro, i) => (
           <Reveal key={membro.funcao} delay={i * 0.06}>
             <div className="flex h-full flex-col items-start gap-5 bg-navy-900 p-6 transition-colors duration-300 hover:bg-navy-800">
-              <span className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 font-display text-base text-white">
+              <span className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 font-display text-sm text-white">
                 {membro.inicial}
               </span>
               <p className="text-sm leading-snug text-mist">{membro.funcao}</p>
