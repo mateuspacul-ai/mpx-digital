@@ -60,6 +60,7 @@ export const whatsappLink = `https://wa.me/${contato.whatsappNumero}?text=${enco
  * --------------------------------------------------------- */
 export const navLinks = [
   { rotulo: "Serviços", href: "#servicos" },
+  { rotulo: "Trabalho", href: "#trabalho" },
   { rotulo: "Sobre", href: "#sobre" },
   { rotulo: "Equipe", href: "#equipe" },
   { rotulo: "Contato", href: "#contato" },
@@ -169,6 +170,38 @@ export const servicos = {
       },
     ],
   },
+};
+
+/* ---------------------------------------------------------
+ * 5.1) NOSSO TRABALHO  —  vídeos reais (loop, mudo)
+ *      Os arquivos ficam em /public/work. Para trocar um vídeo,
+ *      substitua o .mp4 e o .jpg (miniatura) com o mesmo nome.
+ * --------------------------------------------------------- */
+export const trabalho = {
+  rotulo: "Nosso trabalho",
+  titulo: "Câmera, edição e entrega.",
+  subtitulo:
+    "Alguns trabalhos reais saídos da nossa estrutura de produção própria.",
+  itens: [
+    {
+      video: "/work/nega.mp4",
+      poster: "/work/nega.jpg",
+      titulo: "Produção audiovisual",
+      tag: "Gastronomia · Nega Isa",
+    },
+    {
+      video: "/work/video2.mp4",
+      poster: "/work/video2.jpg",
+      titulo: "Edição & color",
+      tag: "Food · Nega Isa",
+    },
+    {
+      video: "/work/inaug.mp4",
+      poster: "/work/inaug.jpg",
+      titulo: "Cobertura de evento",
+      tag: "Inauguração · Ernane Joias",
+    },
+  ],
 };
 
 /* ---------------------------------------------------------
