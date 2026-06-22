@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-900: #00112b;
+  --navy-800: #011d48;
+  --navy-600: #0a2e6b;
+  --white: #ffffff;
+  --mist: #c7d0e0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: var(--navy-900);
+  color: var(--white);
+  font-feature-settings: "ss01", "cv01";
+}
+
+/* Linha-fina usada como divisória discreta entre blocos */
+.hairline {
+  height: 1px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(199, 208, 224, 0.22),
+    transparent
+  );
+}
+
+/* Seleção de texto com a cor da marca */
+::selection {
+  background: var(--navy-600);
+  color: var(--white);
+}
+
+/* Respeita quem prefere menos movimento (acessibilidade) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Tipografia de apoio para títulos muito grandes */
+.text-balance {
+  text-wrap: balance;
+}
