@@ -235,6 +235,7 @@ export const equipe = {
     { funcao: "Filmmaker", inicial: "F" },
     { funcao: "Designer", inicial: "D" },
     { funcao: "Editor de Vídeo", inicial: "E" },
+    { funcao: "Desenvolvedor", inicial: "</>" },
   ],
 };
 
