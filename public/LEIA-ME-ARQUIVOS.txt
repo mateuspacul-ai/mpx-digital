@@ -1,0 +1,15 @@
+ARQUIVOS DESTA PASTA (/public)
+==============================
+
+Os arquivos abaixo são PLACEHOLDERS (provisórios) que eu gerei só pra
+você ver o site completo. Troque pelos oficiais mantendo EXATAMENTE o
+mesmo nome de arquivo:
+
+  logo-mpx.png .................. logo oficial (branca, fundo transparente)
+  mateus-fundador.jpg .......... sua foto (seção "Sobre o fundador")
+  assinatura-mateus-navy.svg ... sua assinatura para FUNDO BRANCO
+  assinatura-mateus-branca.svg . sua assinatura para FUNDO NAVY
+  favicon.ico .................. ícone que aparece na aba do navegador
+
+Como trocar: basta apagar o placeholder e colar o arquivo real com o
+mesmo nome aqui dentro de /public. Não precisa mexer no código.
